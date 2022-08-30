@@ -87,6 +87,8 @@ main{
     font-size: 1.5rem;
 }
 
+ /* headlines */
+
 .headline{
     display: inline-block;
     background-color:rgb(101, 109, 216);
@@ -116,6 +118,8 @@ main{
 .headline-green{
     background-color: green;
 }
+
+/* checked circles */
 
 .circle{
     color: rgba(128, 128, 128, 0.5);

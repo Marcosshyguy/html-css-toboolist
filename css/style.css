@@ -8,35 +8,45 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgrey;
 }
 
 /* header style */
 header{
-    width: 98%;
+
     margin: 0 auto 4rem auto;
 }
 
 .header-container{
-    height: 50px;
+    height: 8rem;
+    background-color: white;
 }
 
 .header-container > h1{
     display: inline-block;
-    /* vertical-align: middle; */
+    line-height:  8rem;
+    vertical-align: middle;
+}
+
+.header-container > img{
+    line-height: 8rem;
+    vertical-align: middle;
 }
 
 /* main style */
 
 main{
-    width: 50%;
+    width: 70%;
     margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.822);
 }
 
 
 /* main button */
 .button-container{
-    width: auto;
-    margin-bottom:5rem;
+    margin-bottom:2rem;
+    border-bottom: 1px solid rgb(128, 128, 128, 0.3);
+
 }
 
 .button{
@@ -45,12 +55,14 @@ main{
     border-radius: .8rem;
     font-weight: bold;
     font-size: 1.2rem;
+    display: inline-block;
 }
 
 .blue-button{
     border-color: rgb(85, 85, 226);
     background-color: rgb(85, 85, 226);
-    color: white;;
+    color: rgba(255, 255, 255, 0.342);
+    
 }
 
 .white-button{

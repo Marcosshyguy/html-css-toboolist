@@ -28,15 +28,16 @@ header{
 /* main style */
 
 main{
-    width: 75%;
+    width: 50%;
     margin: 0 auto;
 }
 
-.button-container{
-    
-}
 
 /* main button */
+.button-container{
+    width: auto;
+    margin-bottom:5rem;
+}
 
 .button{
     padding: .8rem 1.5rem .8rem 1.5rem;
@@ -58,3 +59,30 @@ main{
     color: grey;
     margin-left: 2rem;
 }
+
+/* main-list */
+
+.main-list li{
+    list-style-type: none;
+    line-height: 3rem;
+}
+
+.list-titles{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.headline{
+    background-color:yellow;
+}
+
+.circle{
+    border: 2px solid green;
+    border-radius: 50%;
+
+}
+.circle-not-checked{
+    border-color: red;
+}
+
+
+

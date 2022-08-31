@@ -26,7 +26,7 @@ header{
     display: inline-block;
     line-height:  8rem;
     vertical-align: middle;
-}
+}                              /*provare senza line height*/
 
 .header-container > img{
     line-height: 8rem;
@@ -45,7 +45,7 @@ main{
 /* main button */
 .button-container{
     margin-bottom:2rem;
-    border-bottom: 1px solid rgb(128, 128, 128, 0.3);
+    border-bottom: 1px solid rgb(128, 128, 128, 0.3); /* colore background body*/
     padding: 1.5rem 2.5rem ;
 
 }
@@ -61,20 +61,23 @@ main{
 
 .blue-button{
     border-color: rgb(85, 85, 226);
-    background-color: rgb(85, 85, 226);
+    background-color: rgb(85, 85, 226);  /*button filled*/
     color: rgba(255, 255, 255, 0.342);
     
 }
 
 .white-button{
     border-color: rgba(128, 128, 128, 0.226);
-    background-color: rgba(128, 128, 128, 0.007);
+    background-color: rgba(128, 128, 128, 0.007);   /*button empty*/
     color: grey;
     margin-left: 2rem;
 }
 
 /* main-list */
 
+.list-container{
+    padding:1.5rem 2.5rem; 
+}
 .main-list li{
     list-style-type: none;
 }
@@ -94,7 +97,7 @@ main{
     background-color:rgb(101, 109, 216);
     font-size: .8rem;
     color: white;
-    border-radius: .8rem;
+    border-radius: .8rem;  /*pixel*/
     line-height: 2rem;
     padding: .1rem 1rem .1rem 1rem;
 }

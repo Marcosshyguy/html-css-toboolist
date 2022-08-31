@@ -5,9 +5,12 @@
 }
 
 /* common */
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-size: 62.5%;*/
+} 
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
     background-color: rgba(211, 211, 211, 0.363);
 }
 
@@ -45,7 +48,7 @@ main{
 /* main button */
 .button-container{
     margin-bottom:2rem;
-    border-bottom: 1px solid rgb(128, 128, 128, 0.3); /* colore background body*/
+    border-bottom: 1px solid rgba(211, 211, 211, 0.363); /* colore background body*/
     padding: 1.5rem 2.5rem ;
 
 }
@@ -61,14 +64,14 @@ main{
 
 .blue-button{
     border-color: rgb(85, 85, 226);
-    background-color: rgb(85, 85, 226);  /*button filled*/
+    background-color: rgb(85, 85, 226);  /*alternative name button filled*/
     color: rgba(255, 255, 255, 0.342);
     
 }
 
 .white-button{
     border-color: rgba(128, 128, 128, 0.226);
-    background-color: rgba(128, 128, 128, 0.007);   /*button empty*/
+    background-color: rgba(128, 128, 128, 0.007);   /*alternative name button empty*/
     color: grey;
     margin-left: 2rem;
 }
@@ -90,7 +93,7 @@ main{
     font-size: 1.5rem;
 }
 
- /* headlines */
+ /* headlines/tags */
 
 .headline{
     display: inline-block;
@@ -102,23 +105,24 @@ main{
     padding: .1rem 1rem .1rem 1rem;
 }
 
-.headline-blue{
+
+.bg-blue{
     background-color:rgb(9, 18, 143);
 }
 
-.headline-pink{
+.bg-pink{
     background-color:pink;
 }
 
-.headline-orange{
+.bg-orange{
     background-color:orange;
 }
 
-.headline-grey{
+.bg-grey{
     background-color: grey;
 }
 
-.headline-green{
+.bg-green{
     background-color: green;
 }
 
